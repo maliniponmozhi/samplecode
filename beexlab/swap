@@ -1,0 +1,7 @@
+x=20
+y=40
+print("Before swaping: ")
+print("Value of x and y is:",x,y)
+x,y=y,x
+print("After swaping")
+print("Value of xand y is: ",x,y)

@@ -1,0 +1,3 @@
+string="BeezLabz is a product based company"
+number_of_character=string.count(' ')
+print(len(string)-number_of_character)

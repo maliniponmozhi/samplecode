@@ -1,0 +1,8 @@
+def getmiss(arr):
+    n=len(arr)
+    total=(n+1)*(n+2)/2
+    s=sum(arr)
+    return total-s
+arr=[1,2,3,4,6,7,8]
+m=getmiss(arr)
+print(m)
